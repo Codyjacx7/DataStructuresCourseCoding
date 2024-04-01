@@ -1,5 +1,27 @@
 package BinarySearchTrees;
-class BinaryNode<AnyType> {
+
+
+class BinaryNode<AnyType>
+{
+        // Constructor
+    BinaryNode( AnyType theElement )
+    {
+        element = theElement;
+        left = right = null;
+    }
+
+      // Data; accessible by other package routines
+    AnyType             element;  // The data in the node
+    BinaryNode<AnyType> left;     // Left child
+    BinaryNode<AnyType> right;    // Right child
+}
+
+
+
+
+
+
+/*class BinaryNode<AnyType> {
     public BinaryNode(){
         this(null, null, null);
     }
@@ -72,3 +94,4 @@ class BinaryNode<AnyType> {
     private BinaryNode<AnyType> left;
     private BinaryNode<AnyType> right;
 }
+*/

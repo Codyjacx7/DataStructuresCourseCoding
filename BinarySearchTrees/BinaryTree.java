@@ -1,4 +1,4 @@
-package BinarySearchTrees;
+/*package BinarySearchTrees;
 public class BinaryTree<AnyType> {
     public BinaryTree(){
         root = null;
@@ -49,3 +49,4 @@ public class BinaryTree<AnyType> {
 
     private BinaryNode<AnyType> root;
 }
+ */
